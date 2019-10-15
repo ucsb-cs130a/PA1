@@ -1,9 +1,4 @@
-
-#ifndef CS130A_DICTIONARY_H
-#define CS130A_DICTIONARY_H
-
 #include <string>
-
 using namespace std;
 
 class Dictionary {
@@ -20,6 +15,3 @@ public:
     // Return whether a key is found in the dictionary. Print the buckets accessed during the operation.
     bool find(string key);
 };
-
-
-#endif //CS130A_DICTIONARY_H

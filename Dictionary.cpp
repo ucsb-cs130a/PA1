@@ -1,5 +1,7 @@
-
+// Implement Dictionary methods.
 #include "Dictionary.h"
+#include <string>
+using namespace std;
 
 
 void Dictionary::bulkInsert(int n, string *keys) {

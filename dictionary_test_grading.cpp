@@ -97,7 +97,7 @@ void large_dict_test()
 
     // Remove "Zexi Huang" from the dictionary.
     /* Expected results: removal is unsuccessful, item doesn't exist, 1pt*/
-//    large_dict.remove("Zexi Huang");
+    large_dict.remove("Zexi Huang");
 
     // Insert "Sean Jaffe" into the dictionary.
     /* Expected results: whether collisions happened in second level, 1pt*/
